@@ -1,0 +1,14 @@
+C2:
+	The steady state value of the solution for r=2 is 0.99978
+	The steady state value of the solution for r=0.5 is 0.99540
+	
+C3:     For h=0.1, the solution is 0.85426
+	For h=0.05, the solution is 0.85653
+	For h=0.025, the solution is 0.85754
+	The rate of convergence is 1.16834
+	
+C4:
+	For h=0.25, the solution approaches to steady state
+	For h=0.5, the solution oscillates around 1 and does not approach to a steady state.   
+	For h=0.75, the solution oscillates even more and does not approach to a steady state.   
+	The solutions computed with the larger time step do not indicate the actual behavior of populations. With large time steps, the error accumulated and the estimation diverged from the actual function value.  

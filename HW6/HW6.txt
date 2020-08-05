@@ -1,0 +1,9 @@
+
+            ||A||2     ||A−1||2
+            
+N=20:       ﻿41.258      0.78372
+N=40:        162.85      0.79190
+N=80:        649.20      0.79597
+
+
+||A−1||2 appear to converge to a finite limit as N goes to intinity

@@ -1,0 +1,12 @@
+(b)
+Timestep size required to achieve qualitative agreement with the fully converged solution :51
+
+(c) Estimate of the maximal value of df/dy :
+
+df/dy is in the range (-20, 9.7)
+
+if df/dy<0, maximal value is 20
+
+if df/dy>0, maximal value is 9.7
+
+(d) Yes. My observed tilmestep in (a) is 60. It coincide with the estimate of the tilmestep obtained from the estimate in (c) and a consideration of the interval of absolute stability for the 2nd order Runge-Kutta method

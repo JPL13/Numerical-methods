@@ -1,0 +1,48 @@
+(a)﻿
+
+Euler's Method:
+
+8.485776886091548e-01   
+8.542614913921972e-01   
+8.565266264427115e-01
+8.575417675493178e-01   
+8.580225904276725e-01   
+8.582566022220589e-01
+
+
+Runge-Kutta Method:
+
+8.529864091733677e-01
+﻿8.571084904693129e-01
+﻿8.581402046245359e-01
+﻿8.583995613737730e-01
+﻿8.584646793443833e-01
+﻿8.584810006277054e-01
+
+(b)
+Euler's Method:
+﻿ 1.327259428394618   
+ 1.157916789536809   
+ 1.078102830159772   
+ 1.038924298864392
+ 
+Runge-Kutta Method: 
+ 1.998329642322897   
+ 1.992033497220795   
+ 1.993810269335064   
+ 1.996301239901383
+ 
+ 
+ (c)
+The "exact" solution: 8.584864284474619e-01
+
+		      One digit of agreement    Two digits    Three digits agreement
+Euler                    h=0.1                    h=0.05             h=0.00625
+Runge-Kutta		 h=0.1 			  h=0.05             h=0.025
+
+(d)
+If one wants to get one digit of agreement at time t =1.0, one can use either Euler's method or Second order Runge-Kutta because both methods can get one digit of agreement with h=0.1
+
+If one wants to get three digits of agreement at time t =1.0, one should choose
+Second order Runge-Kutta because Euler's method requires smaller timesteps(h=0.00625) to get three digits agreement, which is computationally expensive.
+  

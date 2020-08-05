@@ -1,0 +1,1 @@
+function [a,b] = signchange(f,x)% SIGNCHANGE [a,b] = signchance(f,x) seeks an% interval [a,b] where f(x) changes sign.   a = x;   b = x;   if x ~= 0      dx = x/50;   else      dx = 1/50;   end   while sign(f(a)) == sign(f(b))      dx = sqrt(2)*dx;      a = x - dx;      b = x + dx;   endend

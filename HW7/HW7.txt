@@ -1,0 +1,14 @@
+[C1] 
+
+N=20, 26 iterations   (30, 65) 
+N=40, 63 iterations    
+
+
+[C2]
+N=20, 18 iterations   (22, 46)
+N=40, 44 iterations
+
+[C3]
+(a) As N increased, the rate of convergence of both methods increased. 
+
+(b) Gauss-Seidel converges at a faster rate.

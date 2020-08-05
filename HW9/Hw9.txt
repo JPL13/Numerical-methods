@@ -1,0 +1,48 @@
+[C1]
+(a)
+Maximal degree :9
+
+Condition # of A  =      6.39018e+08
+Condition # of AtA =     4.08181e+17
+
+(b)
+The maximal degree is the same when a different random seed is used
+
+(c)
+The direct solution of the normal equations with degree of 10 results in the smallest residual of both the linear system of equations and the fit.
+
+[C2]
+(a)
+The expected value of coefficient of ϕn(x) is 1.
+The expected size of the residual is 0.
+
+(b)
+The direct method : degree 6.
+
+Condition # of AtA =    1.90006e+13
+Condition # of A  =     4.35897e+06
+
+
+The QR method: degree 11.
+
+Condition # of A  =    3.01130e+13
+Condition # of AtA =   9.35013e+21
+
+(c)
+The direct method at degree 6:
+The residual:              5.147741725044980e-09
+Error in the coefficient:  2.910383045673370e-11
+
+The QR method at degree 11:
+The residual:              1.758411200138879e-14
+Error in the coefficient:  2.008615496151833e-12
+
+For direct method, the residual is approximately 100 times bigger than the error in the coefficient.
+
+For the QR method, the residual is approximately 100 times smaller than the error in the coefficient.
+
+We can approximately infer the size of the coefficient error from the size of the residual s using the above relationships.
+
+
+
+
